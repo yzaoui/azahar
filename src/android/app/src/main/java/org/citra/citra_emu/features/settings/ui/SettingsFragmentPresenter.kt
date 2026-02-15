@@ -256,6 +256,15 @@ class SettingsFragmentPresenter(private val fragmentView: SettingsFragmentView) 
             )
             add(
                 SwitchSetting(
+                    BooleanSetting.ENABLE_TURBO_TOAST,
+                    R.string.turbo_toast_name,
+                    R.string.turbo_toast_description,
+                    BooleanSetting.ENABLE_TURBO_TOAST.key,
+                    BooleanSetting.ENABLE_TURBO_TOAST.defaultValue
+                )
+            )
+            add(
+                SwitchSetting(
                     BooleanSetting.ANDROID_HIDE_IMAGES,
                     R.string.android_hide_images,
                     R.string.android_hide_images_description,

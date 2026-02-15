@@ -269,6 +269,8 @@
     <string name="android_hide_images_description">Prevent 3DS camera, screenshot, and custom texture images from being indexed by Android and displayed in the gallery. Your device may need to be rebooted after changing this setting to take effect.</string>
     <string name="turbo_limit">Turbo Speed Limit</string>
     <string name="turbo_limit_description">Emulation speed limit used while the turbo hotkey is active.</string>
+    <string name="turbo_toast_name">Enable Turbo Toast</string>
+    <string name="turbo_toast_description">Show a toast message when toggling turbo mode</string>
     <string name="expand_to_cutout_area">Expand to Cutout Area</string>
     <string name="expand_to_cutout_area_description">Expands the display area to include the cutout (or notch) area.</string>
     <string name="internal_resolution">Internal Resolution</string>

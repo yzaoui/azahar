@@ -53,7 +53,8 @@ enum class BooleanSetting(
     UPRIGHT_SCREEN("upright_screen", Settings.SECTION_LAYOUT, false),
     COMPRESS_INSTALLED_CIA_CONTENT("compress_cia_installs", Settings.SECTION_STORAGE, false),
     ANDROID_HIDE_IMAGES("android_hide_images", Settings.SECTION_CORE, false),
-    APPLY_REGION_FREE_PATCH("apply_region_free_patch", Settings.SECTION_SYSTEM, true);
+    APPLY_REGION_FREE_PATCH("apply_region_free_patch", Settings.SECTION_SYSTEM, true),
+    ENABLE_TURBO_TOAST("enable_turbo_toast", Settings.SECTION_CORE, true);
 
     override var boolean: Boolean = defaultValue
 
@@ -73,7 +74,7 @@ enum class BooleanSetting(
     companion object {
         private val NOT_RUNTIME_EDITABLE = listOf(
             PLUGIN_LOADER,
-            ALLOW_PLUGIN_LOADER, 
+            ALLOW_PLUGIN_LOADER,
             ASYNC_SHADERS,
             DELAY_START_LLE_MODULES,
             DETERMINISTIC_ASYNC_OPERATIONS,
